@@ -1,7 +1,10 @@
 ## My Resume
 ---
 ### 1.  **First Name, Last Name:** Ivan Bichan
-### 2. **Contact Info:** Republic of Belarus, Minsk, ul. Churlenisa 12-12
+### 2. **Contact Info:** 
+* Republic of Belarus, Minsk, ul. Churlenisa 12-12.
+*  **Mob**:(+375)445903687, 
+*  **email**: bnkenny1987@gmail.com
 ### 3. **Summary:** I want to change the type of activity. I worked 10 years in construction as a superintendent. I am purposeful, assiduous, responsible, attentive, easily trained, communicative.
 ### 4. **Skills:** HTML, CSS, Markdown, Git to be continued...
 ### 5. **Code examples:**  not now
