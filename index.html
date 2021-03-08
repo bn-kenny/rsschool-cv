@@ -1,13 +1,18 @@
 <!DOCTYPE html>
-<html>
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>My Resume</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="path/to/font-awesome/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Questrial&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Neuton&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/a61edd8799.js"></script>
+    
 </head>
 <body>
-    <footer>
+    <header>
         <h1>My Resume</h1>
         <div class="info">
             <div class="photo">
@@ -21,11 +26,11 @@
                 <li><a href="https://github.com/bn-kenny" title="link GitHub">GitHub</a></li>
              </ul>
         </div>
-    </footer>
+    </header>
     <main>
         <div>
             <h2>Summary:</h2>
-            <p> I worked 10 years in construction as a superintendent. I am purposeful, assiduous, responsible, attentive, easily trained, communicative.</p>
+            <p><article> I worked 10 years in construction as a superintendent.</article> I am purposeful, assiduous, responsible, attentive, easily trained, communicative.</p>
         </div>
         <div>
             <h2>Skills:</h2>
@@ -42,9 +47,19 @@
             <p>HTML:</p>
             <code>Sorry, but not now. To be continued...</code>
             <p>CSS:</p>
-            <code>Sorry, but not now. To be continued...</code>
+            <code>body{<br>
+                background-color:Gainsboro;<br>
+                max-width: 1024px;<br>
+                margin: 0 auto;<br>
+            }</code>
             <p>JavaScript:</p>
-            <code>Sorry, but not now. To be continued...</code>
+            <code>function even_or_odd(number) {<br>
+                if(number % 2 == 0){<br>
+                  return number = "Even";<br>
+                } else {<br>
+                  return number = "Odd";<br>
+                }<br>
+              }</code>
         </div>
         <div>
             <h2>Experience:</h2>
@@ -53,18 +68,26 @@
         <div>
             <h2>Education</h2>
             <ul>
-                <li><time>2004-2009 </time> Higher education. Belarusian-Russian University </li>
-                <li><time>06&#8260;2019 - 08&#8260;2019</time> Website development with HTML, CSS & JAVASCRIPT </li>
+                <li><time datetime="2004-09-01">2004</time>-<time datetime="2009-06-28">2009</time> Higher education. Belarusian-Russian University </li>
+                <li><time datetime="2019-06-15">06&#8260;2019</time>-<time datetime="2019-08-22">08&#8260;2019</time> Website development with HTML, CSS & JAVASCRIPT </li>
             </ul>
         </div>
         <div>
             <h2>English:</h2>
             <p>Level: A2. I completed courses at Streamline.</p>
         </div>  
+        
 
 
 
     </main>
+    <footer>
+        <a href="https://www.youtube.com/" title="youtube" target="_blank"><i class="fab fa-youtube"></i></a>
+        <a href="https://rs.school/js/index.html" title="rs school" target="_blank"><img src="rs_school_js.svg" alt="rs_school"></a>
+        <a href="https://github.com/bn-kenny" title="github" target="_blank"><i class="fab fa-github-square"></i></a>
+        
+    </footer>
+    
     
 </body>
 </html>
