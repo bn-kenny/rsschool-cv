@@ -1,0 +1,36 @@
+body{
+    background-color:Gainsboro;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+.info{
+    display: flex;
+}
+.photo{
+    width: 300px;
+    height: 250px; 
+}
+img{
+    max-width: 200px;
+}
+header{
+    border-bottom: solid grey 1px;
+}
+main div{
+    border-bottom: solid grey 1px;
+}
+
+footer{
+    margin-top: 20px;
+    margin-bottom: 40px;    
+    height: 100px;  
+    
+}
+
+
+footer img{
+    width: 25px;
+    height: 20px;
+    border: 2px solid black;
+    
+}
